@@ -1,8 +1,8 @@
 # PageSpecification GEM
 
 ## Pagina de exemplo
-	https://specification-page.herokuapp.com/
-	Github: https://github.com/massaaki/page_specification_web	
+	<a href="https://specification-page.herokuapp.com">Pagina de Exemplo</a>
+	<a href="https://github.com/massaaki/page_specification_web">GITHUB do Exemplo</a>
 
 
 ## Para compilar e gerar a Gem 
