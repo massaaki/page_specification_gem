@@ -1,5 +1,7 @@
 require "page_specification/version"
 
-module PageSpecification
-  # Your code goes here...
+class Hello
+	def world
+		puts 'world'
+	end
 end
