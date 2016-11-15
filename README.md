@@ -2,7 +2,7 @@
 
 ## Pagina de exemplo
 	https://specification-page.herokuapp.com
-	GITHUB do Exemplo - https://github.com/massaaki/page_specification_web"
+	GITHUB do Exemplo - https://github.com/massaaki/page_specification_web
 
 
 ## Para compilar e gerar a Gem 
