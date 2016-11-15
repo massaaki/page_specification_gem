@@ -1,5 +1,5 @@
 module PageSpecification
-	def self.create(word)
-	
+	def self.count_words(text)
+		text.size
 	end
 end

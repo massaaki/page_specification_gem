@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe PageSpecification do
-	it 'create a single module' do
-		PageSpecification.create('world')
+	it 'Countign module' do
+		PageSpecification.count_words('This is my first Gem')
 	end
 end
