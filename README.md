@@ -12,8 +12,8 @@
 
 
 ## Descricao de funcionalidade
-Gem para analise de texto
-	1. Conta quantas palavras o texto tem
+Gem para analise de texto<br>
+	1. Conta quantas palavras o texto tem <br>
 	2. Conta a quantidade de vezes que a palavra especificada apareceu
 
 ## Instalação
