@@ -1,5 +1,10 @@
 # PageSpecification
 
+gem uninstall page_specification
+gem build page_specification.gemspec
+
+
+
 TODO: This is my first gem
 
 ## Installation
