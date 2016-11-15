@@ -1,7 +1,9 @@
 require "page_specification/version"
+require "page_specification/page_specification"
 
-class Hello
-	def world
-		puts 'world'
+
+class Scan
+	def page(world)
+		puts world
 	end
 end
