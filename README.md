@@ -1,4 +1,4 @@
-# PageSpecification
+# PageSpecification GEM
 
 ## Pagina de exemplo
 	https://specification-page.herokuapp.com/
