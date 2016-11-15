@@ -1,13 +1,20 @@
 # PageSpecification
 
-gem uninstall page_specification
-gem build page_specification.gemspec
+## Pagina de exemplo
+	https://specification-page.herokuapp.com/
+	Github: https://github.com/massaaki/page_specification_web	
 
 
+## Para compilar e gerar a Gem 
+	gem uninstall page_specification
+	gem build page_specification.gemspec
+	gem push page_specification-0.1.0.gem
 
-TODO: This is my first gem
+Gem para analise de texto
+	1. Conta quantas palavras o texto tem
+	2. Conta a quantidade de vezes que a palavra especificada apareceu
 
-## Installation
+## Instalação
 
 Add this line to your application's Gemfile:
 
@@ -24,19 +31,15 @@ Or install it yourself as:
     $ gem install page_specification
 
 ## Usage
+	Basta chamar o metodo
+	PageSpecification.count_words(<Insiera o texto aqui>)
+	PageSpecification.count_word(<Insiera o texto aqui>, <Palavra para buscar no texto>)
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/page_specification. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+## Exemplo
+	PageSpecification.count_words("hello hello world")
+		>> 3
+	PageSpecification.count_words("hello hello world", "hello")
+		>> 2
 
 ## License
 
