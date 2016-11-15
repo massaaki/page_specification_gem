@@ -10,27 +10,26 @@
 	gem build page_specification.gemspec
 	gem push page_specification-0.1.0.gem
 
+
+## Descricao de funcionalidade
 Gem para analise de texto
 	1. Conta quantas palavras o texto tem
 	2. Conta a quantidade de vezes que a palavra especificada apareceu
 
 ## Instalação
 
-Add this line to your application's Gemfile:
+Adicione esta linha em genfile.rb:
 
 ```ruby
 gem 'page_specification'
 ```
 
-And then execute:
+execute no terminal:
 
     $ bundle
 
-Or install it yourself as:
 
-    $ gem install page_specification
-
-## Usage
+## Como utilizar?
 	Basta chamar o metodo
 	PageSpecification.count_words(<Insiera o texto aqui>)
 	PageSpecification.count_word(<Insiera o texto aqui>, <Palavra para buscar no texto>)
